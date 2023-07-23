@@ -1,6 +1,6 @@
 <template>
   <div class="image-item">
-    <img :src="image.urls.regular" alt="" loading="lazy">
+    <img :src="image.urls.regular" :alt="image.id" loading="lazy">
   </div>
 </template>
 

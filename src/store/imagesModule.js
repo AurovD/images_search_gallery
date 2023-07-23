@@ -29,6 +29,7 @@ export const imagesModule = {
                         client_id: "GyY2C8WgvLqhlDdKm5DIWmuSRiiV32KMQaiMFTedt0g"
                     }
                 }).then((res) => {
+                    console.log(res);
                     commit("ADD_IMAGES", res.data.results);
                 })
             } catch (e) {
