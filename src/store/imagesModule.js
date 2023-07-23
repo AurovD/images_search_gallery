@@ -26,7 +26,7 @@ export const imagesModule = {
                         page: state.page,
                         per_page: 10,
                         query: query.query,
-                        client_id: process.env.CLIENT_ID
+                        client_id: "GyY2C8WgvLqhlDdKm5DIWmuSRiiV32KMQaiMFTedt0g"
                     }
                 }).then((res) => {
                     commit("ADD_IMAGES", res.data.results);
@@ -45,7 +45,7 @@ export const imagesModule = {
                         page: state.page,
                         per_page: 10,
                         query: state.query,
-                        client_id:process.env.CLIENT_ID
+                        client_id: "GyY2C8WgvLqhlDdKm5DIWmuSRiiV32KMQaiMFTedt0g"
                     }
                 }).then((res) => {
                     commit('ADD_IMAGES', [...state.images, ...res.data.results]);

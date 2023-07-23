@@ -3,7 +3,7 @@
     <div class="image-list">
       <image-item v-for="image in images" :key="image.id" :image="image"></image-item>
     </div>
-    <div v-intersection="loadMorePosts" class="observer">hi</div>
+    <div v-intersection="loadMorePosts" class="observer"></div>
   </div>
 </template>
 
